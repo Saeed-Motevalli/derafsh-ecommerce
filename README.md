@@ -155,39 +155,6 @@ derafsh/
 └── README.md               # Project documentation
 ```
 
----
-
-# ⚙️ Installation & Setup
-
-## 1. Clone the repository
-
-```bash
-git clone YOUR_REPOSITORY_URL
-```
-
-## 2. Install dependencies
-
-```bash
-npm install
-```
-
-## 3. Start development server
-
-```bash
-npm run dev
-```
-
-The project will run locally.
-
----
-
-# 📦 Production Build
-
-To create a production build:
-
-```bash
-npm run build
-```
 
 ---
 
