@@ -1,0 +1,88 @@
+# =========================
+# Dependencies
+# =========================
+
+node_modules/
+
+
+# =========================
+# Build / Framework files
+# =========================
+
+.next/
+out/
+dist/
+
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.local
+.env.*
+
+
+# =========================
+# Cloudflare / Local runtime
+# =========================
+
+.wrangler/
+.sites-runtime/
+.openai/
+outputs/
+work/
+
+
+# =========================
+# TypeScript
+# =========================
+
+tsconfig.tsbuildinfo
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+
+# =========================
+# Testing
+# =========================
+
+coverage/
+
+
+# =========================
+# Package managers
+# =========================
+
+.pnp
+.pnp.*
+.yarn/*
+
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+
+# =========================
+# System files
+# =========================
+
+.DS_Store
+*.pem
+
+
+# =========================
+# Vercel
+# =========================
+
+.vercel/
