@@ -56,12 +56,12 @@ export default function Home() {
   const [hasLoadedCart, setHasLoadedCart] = useState(false);
   const heroFlags = [
     {
-      label: "پرچم آلمان",
-      image: "/flags/Flag_of_Germany.svg.webp",
+      label: "پرچم آرژانتین",
+      image: "/flags/Flag_of_Argentina.svg.webp",
     },
     {
-      label: "پرچم برزیل",
-      image: "/flags/Flag_of_Brazil.svg.webp",
+      label: "پرچم آلمان",
+      image: "/flags/Flag_of_Germany.svg.webp",
     },
     {
       label: "پرچم ترکیه",
@@ -213,6 +213,34 @@ export default function Home() {
       </header>
 
       <section id="home" className="hero-section">
+        <div className="hero-visual" aria-label="نمونه‌ای از پرچم‌های درفش">
+          <div className="hero-slideshow" aria-live="polite">
+            {heroFlags.map((flag, index) => (
+              <div
+                className={`hero-slide ${index === heroIndex ? "is-active" : ""}`}
+                key={flag.label}
+              >
+                <img src={flag.image} alt={flag.label} />
+              </div>
+            ))}
+          </div>
+          <div className="hero-caption">
+            <span>انتخاب سردبیر</span>
+            <strong>{heroFlags[heroIndex].label}</strong>
+            <small>پارچه استاندارد · دوخت تمیز</small>
+          </div>
+          <div className="hero-dots" aria-label="انتخاب پرچم">
+            {heroFlags.map((flag, index) => (
+              <button
+                key={flag.label}
+                type="button"
+                className={`hero-dot ${index === heroIndex ? "is-active" : ""}`}
+                onClick={() => setHeroIndex(index)}
+                aria-label={`نمایش ${flag.label}`}
+              />
+            ))}
+          </div>
+        </div>
         <div className="hero-copy">
           <p className="eyebrow">کلکسیون پرچم‌های جهان</p>
           <h1>
@@ -245,34 +273,6 @@ export default function Home() {
               <strong>۳ سطح</strong>
               <span>قیمت عمده</span>
             </div>
-          </div>
-        </div>
-        <div className="hero-visual" aria-label="نمونه‌ای از پرچم‌های درفش">
-          <div className="hero-slideshow" aria-live="polite">
-            {heroFlags.map((flag, index) => (
-              <div
-                className={`hero-slide ${index === heroIndex ? "is-active" : ""}`}
-                key={flag.label}
-              >
-                <img src={flag.image} alt={flag.label} />
-              </div>
-            ))}
-          </div>
-          <div className="hero-caption">
-            <span>انتخاب سردبیر</span>
-            <strong>{heroFlags[heroIndex].label}</strong>
-            <small>پارچه استاندارد · دوخت تمیز</small>
-          </div>
-          <div className="hero-dots" aria-label="انتخاب پرچم">
-            {heroFlags.map((flag, index) => (
-              <button
-                key={flag.label}
-                type="button"
-                className={`hero-dot ${index === heroIndex ? "is-active" : ""}`}
-                onClick={() => setHeroIndex(index)}
-                aria-label={`نمایش ${flag.label}`}
-              />
-            ))}
           </div>
         </div>
       </section>

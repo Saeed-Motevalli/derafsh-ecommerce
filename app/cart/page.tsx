@@ -2,7 +2,15 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import Link from "next/link";
-import { ArrowLeft, Check, Minus, Plus, ShoppingBag, X } from "lucide-react";
+import {
+  ArrowLeft,
+  Check,
+  Minus,
+  Plus,
+  ShoppingBag,
+  UserRound,
+  X,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { freeShippingThreshold, money, type Product } from "@/lib/products";
 
@@ -108,12 +116,8 @@ export default function CartPage() {
             <Link href="/#support">راهنمای خرید</Link>
           </nav>
           <div className="header-actions">
-            <Link
-              className="account-button"
-              href="/account"
-              aria-label="حساب کاربری"
-            >
-              <ShoppingBag size={19} />
+            <Link className="account-button" href="/account">
+              <UserRound size={19} />
               <span>حساب کاربری</span>
             </Link>
           </div>

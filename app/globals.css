@@ -292,7 +292,7 @@ a {
   min-height: 500px;
   height: auto;
   display: grid;
-  grid-template-columns: 0.88fr 1.12fr;
+  grid-template-columns: 1.12fr 0.88fr;
   gap: 24px;
   align-items: stretch;
 }
@@ -3265,5 +3265,10 @@ a {
   }
   .related-grid {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .account-button > span {
+    display: none;
   }
 }
