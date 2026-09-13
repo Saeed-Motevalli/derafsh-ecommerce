@@ -16,7 +16,7 @@ export const products: Product[] = [
   {
     id: "argentina",
     country: "آرژانتین",
-    flag: "🇮🇷",
+    flag: "AR",
     image: "/flags/Flag_of_Argentina.svg.webp",
     region: "آمریکا",
     price: 298000,
