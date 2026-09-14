@@ -157,6 +157,10 @@ Cart experience with empty and filled states.
 
 <img src="./screenshots/empty-cart.png" width="650"/>
 
+</div>
+
+<div align="center">
+        
 <img src="./screenshots/empty-cart-mobile-view.jpg" width="260"/>
 
 </div>
@@ -167,10 +171,12 @@ Cart experience with empty and filled states.
 <div align="center">
 
 <img src="./screenshots/full-cart.png" width="650"/>
-
-<img src="./screenshots/full-cart-mobile-view.jpg" width="260"/>
-
 </div>
+
+<div align="center">
+<img src="./screenshots/full-cart-mobile-view.jpg" width="260"/>
+</div>
+
 
 
 ---
@@ -291,7 +297,6 @@ Product suggestion experience.
 <img src="./screenshots/suggestion-mobile-view.jpg" width="280"/>
 
 </div>
----
 
 # ✨ Features
 
