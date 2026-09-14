@@ -33,169 +33,262 @@ The website automatically adapts to desktop, tablet, and mobile screens.
 
 # 📸 Screenshots
 
-The project includes desktop and mobile responsive screenshots for different sections.
-
----
-
-# 🏠 Home Page
+## 🏠 Home Page
 
 ### Desktop
 
-![Home Page](./screenshots/home.png)
+<div align="center">
+
+<img src="./screenshots/home.png" width="750"/>
+
+</div>
+
 
 ### Mobile
 
-![Home Mobile](./screenshots/home-mobile-view.jpg)
+<div align="center">
+
+<img src="./screenshots/home-mobile-view.jpg" width="280"/>
+
+</div>
+
 
 ---
 
 # 👤 Account Pages
 
-### Login
+Authentication pages with login and signup experience.
 
-![Account Sign In](./screenshots/account-signin.png)
+## Desktop
 
-### Signup
+<div align="center">
 
-![Account Signup](./screenshots/account-signup.png)
+<img src="./screenshots/account-signin.png" width="500"/>
+
+<img src="./screenshots/account-signup.png" width="500"/>
+
+</div>
+
+
+## Mobile
+
+<div align="center">
+
+<img src="./screenshots/account-mobile-view.jpg" width="280"/>
+
+</div>
+
 
 ---
 
-# 🌍 Countries & Products
+# 🌎 Countries & Product Categories
 
-### Countries Section
+Country selection pages and product browsing experience.
 
-![All Products](./screenshots/all-product.png)
+## Desktop
 
-### Countries Mobile View
+<div align="center">
 
-![All Products Mobile](./screenshots/all-product-mobile-view.jpg)
+<img src="./screenshots/all-product.png" width="650"/>
+
+<img src="./screenshots/all-product2.png" width="650"/>
+
+</div>
+
+
+## Mobile
+
+<div align="center">
+
+<img src="./screenshots/all-product-mobile-view.jpg" width="260"/>
+
+<img src="./screenshots/product-mobile-view.jpg" width="260"/>
+
+</div>
+
 
 ---
 
-# 🛍️ Product Pages
+# 🛍️ Product Details
 
-### Product Detail
+Product pages include:
 
-![Product Page](./screenshots/product.png)
+- Product information
+- Country details
+- Quality information
+- Recommendations
+- Customer feedback
 
-### Product Detail Mobile
 
-![Product Mobile](./screenshots/product-mobile-view.jpg)
+## Desktop
+
+<div align="center">
+
+<img src="./screenshots/product.png" width="650"/>
+
+<img src="./screenshots/product2.png" width="650"/>
+
+</div>
 
 
-### Product Variant / Second Product
+## Mobile
 
-![Product 2](./screenshots/product2.png)
+<div align="center">
 
-### Product 2 Mobile
+<img src="./screenshots/product-mobile-view.jpg" width="260"/>
 
-![Product 2 Mobile](./screenshots/product2-mobile-view.jpg)
+<img src="./screenshots/product2-mobile-view.jpg" width="260"/>
+
+</div>
+
 
 ---
 
 # 🛒 Shopping Cart
 
-### Empty Cart
-
-![Empty Cart](./screenshots/empty-cart.png)
-
-### Empty Cart Mobile
-
-![Empty Cart Mobile](./screenshots/empty-cart-mobile-view.jpg)
+Cart experience with empty and filled states.
 
 
-### Full Cart
+## Empty Cart
 
-![Full Cart](./screenshots/full-cart.png)
+<div align="center">
 
+<img src="./screenshots/empty-cart.png" width="650"/>
 
-### Full Cart Mobile
+<img src="./screenshots/empty-cart-mobile-view.jpg" width="260"/>
 
-![Full Cart Mobile](./screenshots/full-cart-mobile-view.jpg)
-
----
-
-# 📝 Comments Section
-
-### Desktop
-
-![Comments Section](./screenshots/comment-section.png)
+</div>
 
 
-### Mobile
+## Full Cart
 
-![Comments Mobile](./screenshots/comment-section-mobile-view.jpg)
+<div align="center">
 
+<img src="./screenshots/full-cart.png" width="650"/>
 
-### Second Comments Section
+<img src="./screenshots/full-cart-mobile-view.jpg" width="260"/>
 
-![Comments Section 2](./screenshots/comment-section2.png)
+</div>
 
-
-### Second Comments Mobile
-
-![Comments Section 2 Mobile](./screenshots/comment-section2-mobile-view.jpg)
 
 ---
 
 # 📦 Bulk Purchase
 
-### Desktop
-
-![Bulk Purchase](./screenshots/bulk-purchase.png)
+Bulk ordering experience for customers.
 
 
-### Mobile
+## Desktop
 
-![Bulk Purchase Mobile](./screenshots/bulk-purchase-mobile-view.jpg)
+<div align="center">
+
+<img src="./screenshots/bulk-purchase.png" width="650"/>
+
+</div>
+
+
+## Mobile
+
+<div align="center">
+
+<img src="./screenshots/bulk-purchase-mobile-view.jpg" width="280"/>
+
+</div>
+
 
 ---
 
-# 📄 About Page
+# 💬 Comments Section
 
-### Desktop
-
-![About Page](./screenshots/about.png)
+Customer reviews and feedback interface.
 
 
-### Mobile
+## Desktop
 
-![About Mobile](./screenshots/about-mobile-view.jpg)
+<div align="center">
+
+<img src="./screenshots/comment-section.png" width="650"/>
+
+<img src="./screenshots/comment-section2.png" width="650"/>
+
+</div>
+
+
+## Mobile
+
+<div align="center">
+
+<img src="./screenshots/comment-section-mobile-view.jpg" width="260"/>
+
+<img src="./screenshots/comment-section2-mobile-view.jpg" width="260"/>
+
+</div>
+
 
 ---
 
-# 🦶 Footer
+# 🏠 About Page
 
-### Desktop
-
-![Footer](./screenshots/footer.png)
+Brand information and company introduction.
 
 
-### Mobile
+## Desktop
 
-![Footer Mobile](./screenshots/footer-mobile-view.jpg)
+<div align="center">
+
+<img src="./screenshots/about.png" width="650"/>
+
+</div>
+
+
+## Mobile
+
+<div align="center">
+
+<img src="./screenshots/about-mobile-view.jpg" width="280"/>
+
+</div>
+
 
 ---
 
-# 🛒 Cart Side View
+# 🛒 Side Cart
 
-### Desktop
-
-![Side Cart](./screenshots/side-cart.png)
+Cart sidebar interface.
 
 
-### Mobile
+## Desktop
 
-![Side Cart Mobile](./screenshots/side-cart-mobile-view.jpg)
+<div align="center">
+
+<img src="./screenshots/side-cart.png" width="650"/>
+
+</div>
+
+
+## Mobile
+
+<div align="center">
+
+<img src="./screenshots/side-cart-mobile-view.jpg" width="280"/>
+
+</div>
+
 
 ---
 
 # 💡 Suggestion Section
 
-### Mobile
+Product suggestion experience.
 
-![Suggestion Mobile](./screenshots/suggestion-mobile-view.jpg)
+
+## Mobile
+
+<div align="center">
+
+<img src="./screenshots/suggestion-mobile-view.jpg" width="280"/>
+
+</div>
 ---
 
 # ✨ Features
