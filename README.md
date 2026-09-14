@@ -31,6 +31,171 @@ The main focus of this project was:
 
 The website automatically adapts to desktop, tablet, and mobile screens.
 
+# 📸 Screenshots
+
+The project includes desktop and mobile responsive screenshots for different sections.
+
+---
+
+# 🏠 Home Page
+
+### Desktop
+
+![Home Page](./screenshots/home.png)
+
+### Mobile
+
+![Home Mobile](./screenshots/home-mobile-view.jpg)
+
+---
+
+# 👤 Account Pages
+
+### Login
+
+![Account Sign In](./screenshots/account-signin.png)
+
+### Signup
+
+![Account Signup](./screenshots/account-signup.png)
+
+---
+
+# 🌍 Countries & Products
+
+### Countries Section
+
+![All Products](./screenshots/all-product.png)
+
+### Countries Mobile View
+
+![All Products Mobile](./screenshots/all-product-mobile-view.jpg)
+
+---
+
+# 🛍️ Product Pages
+
+### Product Detail
+
+![Product Page](./screenshots/product.png)
+
+### Product Detail Mobile
+
+![Product Mobile](./screenshots/product-mobile-view.jpg)
+
+
+### Product Variant / Second Product
+
+![Product 2](./screenshots/product2.png)
+
+### Product 2 Mobile
+
+![Product 2 Mobile](./screenshots/product2-mobile-view.jpg)
+
+---
+
+# 🛒 Shopping Cart
+
+### Empty Cart
+
+![Empty Cart](./screenshots/empty-cart.png)
+
+### Empty Cart Mobile
+
+![Empty Cart Mobile](./screenshots/empty-cart-mobile-view.jpg)
+
+
+### Full Cart
+
+![Full Cart](./screenshots/full-cart.png)
+
+
+### Full Cart Mobile
+
+![Full Cart Mobile](./screenshots/full-cart-mobile-view.jpg)
+
+---
+
+# 📝 Comments Section
+
+### Desktop
+
+![Comments Section](./screenshots/comment-section.png)
+
+
+### Mobile
+
+![Comments Mobile](./screenshots/comment-section-mobile-view.jpg)
+
+
+### Second Comments Section
+
+![Comments Section 2](./screenshots/comment-section2.png)
+
+
+### Second Comments Mobile
+
+![Comments Section 2 Mobile](./screenshots/comment-section2-mobile-view.jpg)
+
+---
+
+# 📦 Bulk Purchase
+
+### Desktop
+
+![Bulk Purchase](./screenshots/bulk-purchase.png)
+
+
+### Mobile
+
+![Bulk Purchase Mobile](./screenshots/bulk-purchase-mobile-view.jpg)
+
+---
+
+# 📄 About Page
+
+### Desktop
+
+![About Page](./screenshots/about.png)
+
+
+### Mobile
+
+![About Mobile](./screenshots/about-mobile-view.jpg)
+
+---
+
+# 🦶 Footer
+
+### Desktop
+
+![Footer](./screenshots/footer.png)
+
+
+### Mobile
+
+![Footer Mobile](./screenshots/footer-mobile-view.jpg)
+
+---
+
+# 🛒 Cart Side View
+
+### Desktop
+
+![Side Cart](./screenshots/side-cart.png)
+
+
+### Mobile
+
+![Side Cart Mobile](./screenshots/side-cart-mobile-view.jpg)
+
+---
+
+# 💡 Suggestion Section
+
+### Mobile
+
+![Suggestion Mobile](./screenshots/suggestion-mobile-view.jpg)
 ---
 
 # ✨ Features
@@ -116,114 +281,6 @@ Every section has been optimized for different screen sizes.
 - Prettier
 
 ---
-
-# 📸 Screenshots
-
-## 🏠 Home Page
-
-Desktop version:
-
-![Home Page](./screenshots/home.png)
-
-
-Mobile version:
-
-![Home Mobile](./screenshots/home-mobile-view.jpg)
-
----
-
-# 🛍️ Product Pages
-
-## Product Detail
-
-Desktop:
-
-![Product Page](./screenshots/product.png)
-
-
-Mobile:
-
-![Product Mobile](./screenshots/product-mobile-view.jpg)
-
-
----
-
-## Product Recommendations
-
-Desktop:
-
-![Product Recommendation](./screenshots/product2.png)
-
-
-Mobile:
-
-![Product Recommendation Mobile](./screenshots/product2-mobile-view.jpg)
-
----
-
-# 🌍 Countries Section
-
-Desktop:
-
-![Countries](./screenshots/all-product.png)
-
-
-Mobile:
-
-![Countries Mobile](./screenshots/all-product-mobile-view.jpg)
-
----
-
-# 🛒 Shopping Cart
-
-## Empty Cart
-
-Desktop:
-
-![Empty Cart](./screenshots/empty-cart.png)
-
-
-Mobile:
-
-![Empty Cart Mobile](./screenshots/empty-cart-mobile-view.jpg)
-
-
----
-
-## Full Cart
-
-Desktop:
-
-![Full Cart](./screenshots/full-cart.png)
-
-
-Mobile:
-
-![Full Cart Mobile](./screenshots/full-cart-mobile-view.jpg)
-
----
-
-# 👤 Account Pages
-
-## Login
-
-Desktop:
-
-![Account Login](./screenshots/account-signin.png)
-
-
-Mobile:
-
-![Account Login Mobile](./screenshots/account-mobile-view.jpg)
-
-
----
-
-## Signup
-
-Desktop:
-
-![Account Signup](./screenshots/account-signup.png)
 
 ---
 
