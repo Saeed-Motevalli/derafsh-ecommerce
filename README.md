@@ -74,7 +74,9 @@ Authentication pages with login and signup experience.
 
 <div align="center">
 
-<img src="./screenshots/account-mobile-view.jpg" width="280"/>
+<img src="./screenshots/account-signup-mobile-view.jpg" width="280"/>
+
+<img src="./screenshots/account-signin-mobile-view.jpg" width="280"/>
 
 </div>
 
