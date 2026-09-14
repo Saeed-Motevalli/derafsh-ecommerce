@@ -1,82 +1,119 @@
-# 🛒 Derafsh E-Shopping
+# 🛒 Derafsh E-Commerce
 
-A modern and responsive e-commerce website built with modern frontend technologies.
+A modern, responsive e-commerce platform built with React, TypeScript, and modern frontend technologies.
 
-Derafsh E-Shopping is a complete online shopping platform focused on providing a clean, intuitive, and responsive user experience across desktop, tablet, and mobile devices.
+Derafsh E-Commerce is a complete online shopping experience designed for browsing products, viewing product details, managing shopping carts, and providing a smooth user experience across desktop, tablet, and mobile devices.
 
-The project includes product browsing, product details, shopping cart functionality, user account pages, country-based sections, and a modern component-based architecture.
+The project focuses on clean UI design, responsive layouts, reusable components, and a scalable frontend architecture.
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
 
-(Add your live demo link here)
+🌐 Website:
+
+https://derafsh-ecommerce.saeed-motevalli25.workers.dev/
 
 ---
 
 ## 📌 About The Project
 
-This project was created to practice and implement a production-style e-commerce experience with a focus on:
+Derafsh E-Commerce was developed as a real-world frontend project to simulate a modern online store.
 
-- Modern frontend architecture
-- Responsive web design
-- Reusable React components
-- Clean UI development
-- Scalable project structure
-- User-friendly shopping experience
+The main focus of this project was:
 
-The website is fully responsive and automatically adapts to different screen sizes.
+- Building a professional e-commerce interface
+- Creating reusable React components
+- Developing responsive layouts for all devices
+- Managing different application states
+- Designing clean and maintainable frontend architecture
+- Deploying the application using Cloudflare Workers
+
+The website automatically adapts to desktop, tablet, and mobile screens.
 
 ---
 
 # ✨ Features
 
-## 🛍️ Shopping Experience
+## 🏠 Home Page
 
-- Browse products
-- View detailed product pages
-- Product recommendation sections
-- Country-based product information
-- Product comments section
+- Modern landing page design
+- Hero section
+- Country-based flag categories
+- Brand introduction sections
+- Bulk purchase section
+- Customer comments section
+- Responsive footer design
+
+---
+
+## 🛍️ Product Experience
+
+- Product listing pages
+- Product detail pages
+- Country information sections
+- Product recommendations
+- Customer reviews/comments
+- Responsive product layouts
+
+---
 
 ## 🛒 Shopping Cart
 
-- Add and manage products
+- Add products to cart
+- Cart management
 - Empty cart state
-- Filled cart experience
-- Cart sidebar interface
+- Completed cart experience
+- Mobile-friendly cart interface
+
+---
 
 ## 👤 User Account
 
 - Login page
-- Registration page
-- User account section
+- Signup page
+- Account interface
+- Responsive authentication layouts
 
-## 📱 Responsive Design
+---
 
-The project does not use a separate mobile application.
+# 📱 Responsive Design
 
-Instead, it uses a responsive web design approach:
+The project uses a responsive web design approach instead of a separate mobile application.
 
-- Desktop optimized layout
-- Tablet support
-- Mobile-friendly interface
+Supported layouts:
 
-The UI automatically adjusts based on the user's screen size.
+✅ Desktop  
+✅ Tablet  
+✅ Mobile  
+
+Every section has been optimized for different screen sizes.
 
 ---
 
 # 🛠️ Technologies Used
+
+## Frontend
 
 - React
 - TypeScript
 - Next.js / Vinext
 - Vite
 - Tailwind CSS
+- Lucide React Icons
+
+## Backend & Infrastructure
+
 - Cloudflare Workers
 - Cloudflare D1 Database
 - Drizzle ORM
-- Lucide React Icons
+
+## Development Tools
+
+- Git
+- GitHub
+- ESLint
+- Prettier
 
 ---
 
@@ -84,41 +121,109 @@ The UI automatically adjusts based on the user's screen size.
 
 ## 🏠 Home Page
 
-The main landing page includes the shopping experience, bulk shopping section, brand/story sections, and footer design.
+Desktop version:
 
-![Home Page](./screenshots/home-bulk.png)
+![Home Page](./screenshots/home.png)
 
----
 
-## 🛍️ Product Experience
+Mobile version:
 
-Product pages include product information, country sections, recommendations, and customer feedback.
-
-![Product Page](./screenshots/product-page.png)
-
-![Product Suggestions](./screenshots/product-suggestion.png)
-
-![Product Comments](./screenshots/product-comment-section.png)
+![Home Mobile](./screenshots/home-mobile-view.jpg)
 
 ---
 
-## 🛒 Shopping Cart
+# 🛍️ Product Pages
 
-The shopping cart provides different states including an empty cart and a completed shopping experience.
+## Product Detail
+
+Desktop:
+
+![Product Page](./screenshots/product.png)
+
+
+Mobile:
+
+![Product Mobile](./screenshots/product-mobile-view.jpg)
+
+
+---
+
+## Product Recommendations
+
+Desktop:
+
+![Product Recommendation](./screenshots/product2.png)
+
+
+Mobile:
+
+![Product Recommendation Mobile](./screenshots/product2-mobile-view.jpg)
+
+---
+
+# 🌍 Countries Section
+
+Desktop:
+
+![Countries](./screenshots/all-product.png)
+
+
+Mobile:
+
+![Countries Mobile](./screenshots/all-product-mobile-view.jpg)
+
+---
+
+# 🛒 Shopping Cart
+
+## Empty Cart
+
+Desktop:
 
 ![Empty Cart](./screenshots/empty-cart.png)
 
-![Full Cart](./screenshots/full-cart.png)
+
+Mobile:
+
+![Empty Cart Mobile](./screenshots/empty-cart-mobile-view.jpg)
+
 
 ---
 
-## 👤 Account Pages
+## Full Cart
 
-Users can access authentication pages including login and registration.
+Desktop:
 
-![Login Page](./screenshots/account-login.png)
+![Full Cart](./screenshots/full-cart.png)
 
-![Signup Page](./screenshots/account-signup.png)
+
+Mobile:
+
+![Full Cart Mobile](./screenshots/full-cart-mobile-view.jpg)
+
+---
+
+# 👤 Account Pages
+
+## Login
+
+Desktop:
+
+![Account Login](./screenshots/account-signin.png)
+
+
+Mobile:
+
+![Account Login Mobile](./screenshots/account-mobile-view.jpg)
+
+
+---
+
+## Signup
+
+Desktop:
+
+![Account Signup](./screenshots/account-signup.png)
 
 ---
 
@@ -128,64 +233,86 @@ Users can access authentication pages including login and registration.
 derafsh/
 │
 ├── app/                    # Application routes and pages
-│   ├── account/            # Login and signup pages
+│   ├── account/            # User authentication pages
 │   ├── cart/               # Shopping cart pages
-│   ├── countries/          # Country-based sections
-│   ├── product/            # Product detail pages
-│   ├── layout.tsx          # Global application layout
+│   ├── countries/          # Country sections
+│   ├── product/            # Product pages
+│   ├── layout.tsx          # Global layout
 │   └── page.tsx            # Home page
 │
-├── components/             # Reusable UI components
-│
-├── lib/                    # Shared utilities and helpers
+├── components/             # Reusable React components
 │
 ├── hooks/                  # Custom React hooks
 │
-├── public/                 # Static assets and images
+├── lib/                    # Shared utilities
+│
+├── public/                 # Static assets
 │
 ├── db/                     # Database configuration
 │
 ├── drizzle/                # Database schema and migrations
 │
-├── worker/                 # Cloudflare Worker configuration
+├── worker/                 # Cloudflare Worker files
 │
-├── package.json            # Dependencies and scripts
-├── vite.config.ts          # Vite configuration
-├── tsconfig.json           # TypeScript configuration
-└── README.md               # Project documentation
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+└── README.md
 ```
-
 
 ---
 
 # 🎯 Project Goals
 
-The main goals of this project were:
+The main goals of this project:
 
-- Building a professional e-commerce interface
-- Creating reusable and maintainable components
+- Creating a production-style e-commerce interface
+- Improving React and TypeScript skills
 - Practicing scalable frontend architecture
-- Improving responsive design skills
-- Developing a real-world shopping experience
+- Building reusable UI components
+- Learning modern deployment workflows
 
 ---
 
 # 🧩 Development Approach
 
-During development, the project focused on:
+During development, the project followed:
 
 - Component-based architecture
-- Separation of concerns
-- Responsive layouts
-- Clean folder organization
-- Modern frontend best practices
+- Responsive-first design
+- Clean separation of logic and UI
+- Reusable components
+- Maintainable folder structure
+- Modern frontend development practices
+
+---
+
+# 🚀 Deployment
+
+The application is deployed using:
+
+**Cloudflare Workers**
+
+Deployment workflow:
+
+```
+GitHub Repository
+        ↓
+Cloudflare Build System
+        ↓
+Cloudflare Workers Deployment
+        ↓
+Live Website
+```
 
 ---
 
 # 👨‍💻 Author
 
-**Saeed Motevalli**
+## Saeed Motevalli
 
 Frontend Developer
 
-GitHub: [Saeed-Motevalli](https://github.com/Saeed-Motevalli)
+GitHub:
+
+https://github.com/Saeed-Motevalli
